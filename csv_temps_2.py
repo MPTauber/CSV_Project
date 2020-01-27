@@ -20,7 +20,7 @@ for row in csv_file:
 print(highs[:10]) #everything up till 9 (not including 10)
 
 plt.plot(highs,color='red')
-plt.title("Daily High Temps, July 2018" , fontsize =16)
+plt.title("Daily high temps, July 2018" , fontsize =16)
 plt.xlabel("", fontsize=16)
 plt.ylabel("Temperature in (F)",fontsize = 16)
 plt.tick_params(axis="both", which="major" , labelsize= 16)
