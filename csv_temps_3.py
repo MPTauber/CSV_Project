@@ -30,7 +30,7 @@ fig = plt.figure()
 plt.plot(dates, highs, color='red', alpha= 0.5)
 plt.plot(dates, lows, color='blue', alpha = 0.5)
 
-plt.fill_between(dates, highs, lows, facecolor = "blue", alpha = 0.1) #give it an x-axis and two points in between to fill color
+plt.fill_between(dates, highs, lows, facecolor = "blue", alpha = 0.3) #give it an x-axis and two points in between to fill color
 
 plt.title("Daily High Temps, July 2018" , fontsize =16)
 plt.xlabel("", fontsize=8)
